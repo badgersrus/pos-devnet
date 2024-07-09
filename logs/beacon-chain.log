@@ -1,0 +1,197 @@
+time="2024-07-09 21:16:51" level=info msg="Finished reading JWT secret from jwt.hex" prefix=execution
+time="2024-07-09 21:16:51" level=error msg="enable-debug-rpc-endpoints is deprecated and has no effect. Do not use this flag, it will be deleted soon." prefix=flags
+time="2024-07-09 21:16:51" level=warning msg="Running on custom Ethereum network specified in a chain configuration yaml file" prefix=flags
+time="2024-07-09 21:16:51" level=debug msg="Config file values: &{GenesisSlot:0 GenesisEpoch:0 FarFutureEpoch:18446744073709551615 FarFutureSlot:18446744073709551615 BaseRewardsPerEpoch:4 DepositContractTreeDepth:32 JustificationBitsLength:0 PresetBase:interop ConfigName:interop TargetCommitteeSize:128 MaxValidatorsPerCommittee:2048 MaxCommitteesPerSlot:64 MinPerEpochChurnLimit:4 ChurnLimitQuotient:65536 ShuffleRoundCount:90 MinGenesisActiveValidatorCount:16384 MinGenesisTime:1606824000 TargetAggregatorsPerCommittee:16 HysteresisQuotient:4 HysteresisDownwardMultiplier:1 HysteresisUpwardMultiplier:5 MinDepositAmount:1000000000 MinActivationBalance:32000000000 MaxEffectiveBalance:32000000000 EjectionBalance:16000000000 EffectiveBalanceIncrement:1000000000 BLSWithdrawalPrefixByte:0 ETH1AddressWithdrawalPrefixByte:1 CompoundingWithdrawalPrefixByte:2 ZeroHash:[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] GenesisDelay:604800 MinAttestationInclusionDelay:1 SecondsPerSlot:12 SlotsPerEpoch:6 SqrRootSlotsPerEpoch:2 MinSeedLookahead:1 MaxSeedLookahead:4 EpochsPerEth1VotingPeriod:64 SlotsPerHistoricalRoot:8192 MinValidatorWithdrawabilityDelay:256 ShardCommitteePeriod:256 MinEpochsToInactivityPenalty:4 Eth1FollowDistance:2048 SecondsPerETH1Block:14 ProposerScoreBoost:40 ReorgWeightThreshold:20 ReorgParentWeightThreshold:160 ReorgMaxEpochsSinceFinalization:2 IntervalsPerSlot:3 DepositChainID:1 DepositNetworkID:1 DepositContractAddress:0x4242424242424242424242424242424242424242 RandomSubnetsPerValidator:1 EpochsPerRandomSubnetSubscription:256 EpochsPerHistoricalVector:65536 EpochsPerSlashingsVector:8192 HistoricalRootsLimit:16777216 ValidatorRegistryLimit:1099511627776 BaseRewardFactor:64 WhistleBlowerRewardQuotient:512 ProposerRewardQuotient:8 InactivityPenaltyQuotient:67108864 MinSlashingPenaltyQuotient:128 ProportionalSlashingMultiplier:1 MaxProposerSlashings:16 MaxAttesterSlashings:2 MaxAttesterSlashingsElectra:1 MaxAttestations:128 MaxAttestationsElectra:8 MaxDeposits:16 MaxVoluntaryExits:16 MaxWithdrawalsPerPayload:16 MaxPartialWithdrawalsPerPayload:0 MaxBlsToExecutionChanges:16 MaxValidatorsPerWithdrawalsSweep:16384 DomainBeaconProposer:[0 0 0 0] DomainRandao:[2 0 0 0] DomainBeaconAttester:[1 0 0 0] DomainDeposit:[3 0 0 0] DomainVoluntaryExit:[4 0 0 0] DomainSelectionProof:[5 0 0 0] DomainAggregateAndProof:[6 0 0 0] DomainSyncCommittee:[7 0 0 0] DomainSyncCommitteeSelectionProof:[8 0 0 0] DomainContributionAndProof:[9 0 0 0] DomainApplicationMask:[0 0 0 1] DomainApplicationBuilder:[0 0 0 1] DomainBLSToExecutionChange:[10 0 0 0] DomainConsolidation:[11 0 0 0] GweiPerEth:1000000000 BLSSecretKeyLength:32 BLSPubkeyLength:48 DefaultBufferSize:10000 ValidatorPrivkeyFileName:/validatorprivatekey WithdrawalPrivkeyFileName:/shardwithdrawalkey RPCSyncCheck:1ns EmptySignature:[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] DefaultPageSize:250 MaxPeersToSync:15 SlotsPerArchivedPoint:2048 GenesisCountdownInterval:1m0s BeaconStateFieldCount:21 BeaconStateAltairFieldCount:24 BeaconStateBellatrixFieldCount:25 BeaconStateCapellaFieldCount:28 BeaconStateDenebFieldCount:28 BeaconStateElectraFieldCount:37 WeakSubjectivityPeriod:54000 PruneSlasherStoragePeriod:10 SlashingProtectionPruningEpochs:512 GenesisForkVersion:[32 0 0 137] AltairForkVersion:[32 0 0 144] AltairForkEpoch:0 BellatrixForkVersion:[32 0 0 145] BellatrixForkEpoch:0 CapellaForkVersion:[32 0 0 146] CapellaForkEpoch:0 DenebForkVersion:[32 0 0 147] DenebForkEpoch:0 ElectraForkVersion:[32 0 0 148] ElectraForkEpoch:18446744073709551615 ForkVersionSchedule:map[[0 0 0 0]:0 [1 0 0 0]:74240 [2 0 0 0]:144896 [3 0 0 0]:194048 [4 0 0 0]:269568 [5 0 0 0]:18446744073709551615] ForkVersionNames:map[[0 0 0 0]:phase0 [1 0 0 0]:altair [2 0 0 0]:bellatrix [3 0 0 0]:capella [4 0 0 0]:deneb [5 0 0 0]:electra] SafetyDecay:10 TimelySourceFlagIndex:0 TimelyTargetFlagIndex:1 TimelyHeadFlagIndex:2 TimelySourceWeight:14 TimelyTargetWeight:26 TimelyHeadWeight:14 SyncRewardWeight:2 WeightDenominator:64 ProposerWeight:8 TargetAggregatorsPerSyncSubcommittee:16 SyncCommitteeSubnetCount:4 SyncCommitteeSize:512 InactivityScoreBias:4 InactivityScoreRecoveryRate:16 EpochsPerSyncCommitteePeriod:256 InactivityPenaltyQuotientAltair:50331648 MinSlashingPenaltyQuotientAltair:64 ProportionalSlashingMultiplierAltair:2 MinSlashingPenaltyQuotientBellatrix:32 ProportionalSlashingMultiplierBellatrix:3 InactivityPenaltyQuotientBellatrix:16777216 MinSyncCommitteeParticipants:1 MaxRequestLightClientUpdates:128 TerminalBlockHash:0x0000000000000000000000000000000000000000000000000000000000000000 TerminalBlockHashActivationEpoch:18446744073709551615 TerminalTotalDifficulty:0 DefaultFeeRecipient:0x0000000000000000000000000000000000000000 EthBurnAddressHex:0x0000000000000000000000000000000000000000 DefaultBuilderGasLimit:30000000 MaxBuilderConsecutiveMissedSlots:3 MaxBuilderEpochMissedSlots:5 LocalBlockValueBoost:0 ExecutionEngineTimeoutValue:8 BlobsidecarSubnetCount:6 MaxPerEpochActivationChurnLimit:8 MinEpochsForBlobsSidecarsRequest:4096 MaxRequestBlobSidecars:768 MaxRequestBlocksDeneb:128 DataColumnSidecarSubnetCount:32 MaxPerEpochActivationExitChurnLimit:256000000000 MinPerEpochChurnLimitElectra:128000000000 MaxRequestDataColumnSidecars:16384 MaxEffectiveBalanceElectra:2048000000000 MinSlashingPenaltyQuotientElectra:4096 WhistleBlowerRewardQuotientElectra:4096 PendingBalanceDepositLimit:134217728 PendingPartialWithdrawalsLimit:134217728 PendingConsolidationsLimit:262144 MaxConsolidations:1 MaxPendingPartialsPerWithdrawalsSweep:8 FullExitRequestAmount:0 MaxWithdrawalRequestsPerPayload:16 MaxDepositRequestsPerPayload:8192 UnsetDepositRequestsStartIndex:18446744073709551615 GossipMaxSize:10485760 MaxChunkSize:10485760 AttestationSubnetCount:64 AttestationPropagationSlotRange:32 MaxRequestBlocks:1024 TtfbTimeout:5 RespTimeout:10 MaximumGossipClockDisparity:500 MessageDomainInvalidSnappy:[0 0 0 0] MessageDomainValidSnappy:[1 0 0 0] MinEpochsForBlockRequests:33024 EpochsPerSubnetSubscription:256 AttestationSubnetExtraBits:0 AttestationSubnetPrefixBits:6 SubnetsPerNode:2 NodeIdBits:256 NumberOfColumns:128 MaxCellsInExtendedMatrix:768}"
+time="2024-07-09 21:16:51" level=info msg="Default fee recipient is set to 0x123463a4B065722E99115D6c222f267d9cABb524, recipient may be overwritten from validator client and persist in db. Default fee recipient will be used as a fall back" prefix=node
+time="2024-07-09 21:16:51" level=debug msg="Starting DB" prefix=node
+time="2024-07-09 21:16:51" level=info msg="Checking DB" databasePath="beacondata/beaconchaindata" prefix=node
+time="2024-07-09 21:16:51" level=info msg="Opening Bolt DB" path="beacondata/beaconchaindata/beaconchain.db" prefix=db
+time="2024-07-09 21:16:51" level=info msg="Loading genesis state from disk." hash=0x2f04cc4192d38c9ac13c6590a2c85caccc73a2fe57c6578c7625591873939f42 prefix=genesis
+time="2024-07-09 21:16:51" level=info msg="Deposit contract" address=0x4242424242424242424242424242424242424242 prefix=node
+time="2024-07-09 21:16:51" level=debug msg="Starting Slashing DB" prefix=node
+time="2024-07-09 21:16:51" level=debug msg="Registering P2P Service" prefix=node
+time="2024-07-09 21:16:51" level=warning msg="No bootstrap addresses supplied" prefix=p2p
+time="2024-07-09 21:16:51" level=debug msg="Warmed up pruner cache" duration="105.167µs" prefix=filesystem
+time="2024-07-09 21:16:51" level=info msg="Blob filesystem cache warm-up complete." elapsed=146.291µs prefix=filesystem
+time="2024-07-09 21:16:51" level=info msg="Running node with peer id of 16Uiu2HAmScGfDvjLcjc2WduEjy72B9qFXrFjCzqa1g8HWhUZBpHA " prefix=p2p
+time="2024-07-09 21:16:51" level=debug msg="ECDSA private key generated" prefix=p2p
+time="2024-07-09 21:16:51" level=debug msg="Starting State Gen" prefix=node
+time="2024-07-09 21:16:51" level=debug msg="Registering POW Chain Service" prefix=node
+time="2024-07-09 21:16:51" level=debug msg="Registering Attestation Pool Service" prefix=node
+time="2024-07-09 21:16:51" level=debug msg="Registering Deterministic Genesis Service" prefix=node
+time="2024-07-09 21:16:51" level=debug msg="Registering Blockchain Service" prefix=node
+time="2024-07-09 21:16:51" level=debug msg="--weak-subjectivity-checkpoint not provided" prefix=blockchain
+time="2024-07-09 21:16:51" level=debug msg="Registering Initial Sync Service" prefix=node
+time="2024-07-09 21:16:51" level=debug msg="Registering Sync Service" prefix=node
+time="2024-07-09 21:16:51" level=debug msg="Registering Slasher Service" prefix=node
+time="2024-07-09 21:16:51" level=debug msg="Registering builder service" prefix=node
+time="2024-07-09 21:16:51" level=debug msg="Registering RPC Service" prefix=node
+time="2024-07-09 21:16:51" level=info msg="gRPC server listening on port" address="127.0.0.1:4000" prefix=rpc
+time="2024-07-09 21:16:51" level=warning msg="You are using an insecure gRPC server. If you are running your beacon node and validator on the same machines, you can ignore this message. If you want to know how to enable secure connections, see: https://docs.prylabs.network/docs/prysm-usage/secure-grpc" prefix=rpc
+time="2024-07-09 21:16:51" level=debug msg="Registering GRPC Gateway Service" prefix=node
+time="2024-07-09 21:16:51" level=debug msg="Registering Validator Monitoring Service" prefix=node
+time="2024-07-09 21:16:51" level=debug msg="Registering Prometheus Service" prefix=node
+time="2024-07-09 21:16:51" level=info msg="Starting beacon node" prefix=node version="Prysm/Unknown/Local build. Built at: Moments ago"
+time="2024-07-09 21:16:51" level=debug msg="Starting 11 services: [*p2p.Service *backfill.Service *execution.Service *attestations.Service *blockchain.Service *initialsync.Service *sync.Service *builder.Service *rpc.Service *gateway.Gateway *prometheus.Service]" prefix=registry
+time="2024-07-09 21:16:51" level=debug msg="Starting service type *p2p.Service" prefix=registry
+time="2024-07-09 21:16:51" level=debug msg="Starting service type *backfill.Service" prefix=registry
+time="2024-07-09 21:16:51" level=debug msg="Starting service type *execution.Service" prefix=registry
+time="2024-07-09 21:16:51" level=debug msg="Starting service type *attestations.Service" prefix=registry
+time="2024-07-09 21:16:51" level=debug msg="Starting service type *blockchain.Service" prefix=registry
+time="2024-07-09 21:16:51" level=debug msg="Starting service type *initialsync.Service" prefix=registry
+time="2024-07-09 21:16:51" level=debug msg="Starting service type *sync.Service" prefix=registry
+time="2024-07-09 21:16:51" level=debug msg="Starting service type *builder.Service" prefix=registry
+time="2024-07-09 21:16:51" level=info msg="Blockchain data already exists in DB, initializing..." prefix=blockchain
+time="2024-07-09 21:16:51" level=debug msg="Starting service type *rpc.Service" prefix=registry
+time="2024-07-09 21:16:51" level=debug msg="Starting service type *gateway.Gateway" prefix=registry
+time="2024-07-09 21:16:51" level=debug msg="Starting service type *prometheus.Service" prefix=registry
+time="2024-07-09 21:16:51" level=info msg="Backfill service not enabled" prefix=backfill
+time="2024-07-09 21:16:51" level=info msg="Waiting for state to be initialized" prefix=initial-sync
+time="2024-07-09 21:16:51" level=debug msg="Starting prometheus service" address="127.0.0.1:8080" prefix=prometheus
+time="2024-07-09 21:16:51" level=info msg="Starting gRPC gateway" address="127.0.0.1:3500" prefix=gateway
+time="2024-07-09 21:16:51" level=info msg="9m56s until chain genesis" genesisStateRoot=7864fe41d01d6bc9b0677d08f2a4bf84c82b0f9126f743d6c717aa0e146ac318 genesisTime="2024-07-09 21:26:48 +0100 BST" genesisValidators=2 prefix=slotutil
+time="2024-07-09 21:16:51" level=info msg="Received state initialized event" prefix=initial-sync
+time="2024-07-09 21:16:51" level=info msg="Due to number of peers required for sync being set at 0, entering regular sync immediately." genesisTime=2024-07-09 21:26:48 +0100 BST prefix=initial-sync
+time="2024-07-09 21:16:51" level=debug msg="Received state initialized event" prefix=sync startTime=2024-07-09 21:26:48 +0100 BST
+time="2024-07-09 21:16:51" level=info msg="Started discovery v5" ENR="enr:-MK4QAUnnIGh1RUmxbt3ASYOuFgnMfAkUf6pBmjtu5fE-2UlSF0omNadbYrMi6yRps4KCJwsl1Qkaz-SVOgHxIjSFUqGAZCZJEzKh2F0dG5ldHOIAAAAAAAAAACEZXRoMpCdcTZPIAAAlP__________gmlkgnY0gmlwhMCoAAKJc2VjcDI1NmsxoQPPUVC_K1gSJTaX76P2Wt4hs9CXWxkwxb9kXBkl6Qn5NYhzeW5jbmV0cwCDdGNwgjLIg3VkcIIu4A" prefix=p2p
+time="2024-07-09 21:16:51" level=info msg="Node started p2p server" multiAddr="/ip4/192.168.0.2/tcp/13000/p2p/16Uiu2HAmScGfDvjLcjc2WduEjy72B9qFXrFjCzqa1g8HWhUZBpHA" prefix=p2p
+time="2024-07-09 21:16:52" level=info msg="gRPC client connected to beacon node" addr="127.0.0.1:61553" prefix=rpc
+time="2024-07-09 21:16:52" level=info msg="Updated fee recipient addresses for validator indices" prefix="rpc/validator" validatorCount=2
+time="2024-07-09 21:17:06" level=debug msg="Trying to dial endpoint: /***" prefix=execution
+time="2024-07-09 21:17:06" level=info msg="Connected to new endpoint" endpoint="/***" prefix=execution
+time="2024-07-09 21:17:06" level=debug msg="Processing historical deposit logs" currentEth1Block=0 currentLogCount=0 prefix=execution
+time="2024-07-09 21:17:21" level=debug msg="Processing historical deposit logs" currentEth1Block=0 currentLogCount=0 prefix=execution
+time="2024-07-09 21:17:36" level=debug msg="Processing historical deposit logs" currentEth1Block=0 currentLogCount=0 prefix=execution
+time="2024-07-09 21:17:46" level=info msg="gRPC client connected to beacon node" addr="127.0.0.1:61559" prefix=rpc
+time="2024-07-09 21:17:51" level=info msg="8m56s until chain genesis" genesisStateRoot=7864fe41d01d6bc9b0677d08f2a4bf84c82b0f9126f743d6c717aa0e146ac318 genesisTime="2024-07-09 21:26:48 +0100 BST" genesisValidators=2 prefix=slotutil
+time="2024-07-09 21:17:51" level=info msg="Connected peers" inboundTCP=0 outboundTCP=0 prefix=p2p total=0
+time="2024-07-09 21:17:51" level=debug msg="Processing historical deposit logs" currentEth1Block=0 currentLogCount=0 prefix=execution
+time="2024-07-09 21:18:05" level=info msg="gRPC client connected to beacon node" addr="127.0.0.1:61560" prefix=rpc
+time="2024-07-09 21:18:06" level=debug msg="Processing historical deposit logs" currentEth1Block=0 currentLogCount=0 prefix=execution
+time="2024-07-09 21:18:10" level=info msg="gRPC client connected to beacon node" addr="127.0.0.1:61561" prefix=rpc
+time="2024-07-09 21:18:16" level=info msg="gRPC client connected to beacon node" addr="127.0.0.1:61564" prefix=rpc
+time="2024-07-09 21:18:16" level=info msg="gRPC client connected to beacon node" addr="127.0.0.1:61562" prefix=rpc
+time="2024-07-09 21:18:21" level=debug msg="Processing historical deposit logs" currentEth1Block=0 currentLogCount=0 prefix=execution
+time="2024-07-09 21:18:21" level=info msg="gRPC client connected to beacon node" addr="127.0.0.1:61563" prefix=rpc
+time="2024-07-09 21:18:28" level=info msg="gRPC client connected to beacon node" addr="127.0.0.1:61567" prefix=rpc
+time="2024-07-09 21:18:36" level=debug msg="Processing historical deposit logs" currentEth1Block=0 currentLogCount=0 prefix=execution
+time="2024-07-09 21:18:43" level=info msg="gRPC client connected to beacon node" addr="127.0.0.1:61568" prefix=rpc
+time="2024-07-09 21:18:51" level=info msg="7m56s until chain genesis" genesisStateRoot=7864fe41d01d6bc9b0677d08f2a4bf84c82b0f9126f743d6c717aa0e146ac318 genesisTime="2024-07-09 21:26:48 +0100 BST" genesisValidators=2 prefix=slotutil
+time="2024-07-09 21:18:51" level=info msg="Connected peers" inboundTCP=0 outboundTCP=0 prefix=p2p total=0
+time="2024-07-09 21:18:51" level=debug msg="Processing historical deposit logs" currentEth1Block=0 currentLogCount=0 prefix=execution
+time="2024-07-09 21:18:54" level=info msg="gRPC client connected to beacon node" addr="127.0.0.1:61574" prefix=rpc
+time="2024-07-09 21:19:06" level=debug msg="Processing historical deposit logs" currentEth1Block=0 currentLogCount=0 prefix=execution
+time="2024-07-09 21:19:21" level=debug msg="Processing historical deposit logs" currentEth1Block=0 currentLogCount=0 prefix=execution
+time="2024-07-09 21:19:36" level=error msg="Unable to retrieve proof-of-stake genesis block data" error="HeaderByHash, hash=0x6003cc1232af19058dfaed4c2caf11f0c7296e20c5bc70a9b851c49fe5a72ef4: not found" prefix=execution
+time="2024-07-09 21:19:36" level=debug msg="Processing historical deposit logs" currentEth1Block=0 currentLogCount=0 prefix=execution
+time="2024-07-09 21:19:51" level=info msg="6m56s until chain genesis" genesisStateRoot=7864fe41d01d6bc9b0677d08f2a4bf84c82b0f9126f743d6c717aa0e146ac318 genesisTime="2024-07-09 21:26:48 +0100 BST" genesisValidators=2 prefix=slotutil
+time="2024-07-09 21:19:51" level=info msg="Connected peers" inboundTCP=0 outboundTCP=0 prefix=p2p total=0
+time="2024-07-09 21:19:51" level=debug msg="Processing historical deposit logs" currentEth1Block=0 currentLogCount=0 prefix=execution
+time="2024-07-09 21:20:06" level=debug msg="Processing historical deposit logs" currentEth1Block=0 currentLogCount=0 prefix=execution
+time="2024-07-09 21:20:21" level=debug msg="Processing historical deposit logs" currentEth1Block=0 currentLogCount=0 prefix=execution
+time="2024-07-09 21:20:36" level=debug msg="Processing historical deposit logs" currentEth1Block=0 currentLogCount=0 prefix=execution
+time="2024-07-09 21:20:51" level=info msg="5m56s until chain genesis" genesisStateRoot=7864fe41d01d6bc9b0677d08f2a4bf84c82b0f9126f743d6c717aa0e146ac318 genesisTime="2024-07-09 21:26:48 +0100 BST" genesisValidators=2 prefix=slotutil
+time="2024-07-09 21:20:51" level=info msg="Connected peers" inboundTCP=0 outboundTCP=0 prefix=p2p total=0
+time="2024-07-09 21:20:51" level=debug msg="Processing historical deposit logs" currentEth1Block=0 currentLogCount=0 prefix=execution
+time="2024-07-09 21:21:06" level=debug msg="Processing historical deposit logs" currentEth1Block=0 currentLogCount=0 prefix=execution
+time="2024-07-09 21:21:21" level=debug msg="Processing historical deposit logs" currentEth1Block=0 currentLogCount=0 prefix=execution
+time="2024-07-09 21:21:36" level=debug msg="Processing historical deposit logs" currentEth1Block=0 currentLogCount=0 prefix=execution
+time="2024-07-09 21:21:51" level=info msg="4m56s until chain genesis" genesisStateRoot=7864fe41d01d6bc9b0677d08f2a4bf84c82b0f9126f743d6c717aa0e146ac318 genesisTime="2024-07-09 21:26:48 +0100 BST" genesisValidators=2 prefix=slotutil
+time="2024-07-09 21:21:51" level=info msg="Connected peers" inboundTCP=0 outboundTCP=0 prefix=p2p total=0
+time="2024-07-09 21:21:51" level=error msg="Unable to retrieve proof-of-stake genesis block data" error="HeaderByHash, hash=0x6003cc1232af19058dfaed4c2caf11f0c7296e20c5bc70a9b851c49fe5a72ef4: not found" prefix=execution
+time="2024-07-09 21:21:51" level=debug msg="Processing historical deposit logs" currentEth1Block=0 currentLogCount=0 prefix=execution
+time="2024-07-09 21:22:06" level=debug msg="Processing historical deposit logs" currentEth1Block=0 currentLogCount=0 prefix=execution
+time="2024-07-09 21:22:21" level=debug msg="Processing historical deposit logs" currentEth1Block=0 currentLogCount=0 prefix=execution
+time="2024-07-09 21:22:36" level=debug msg="Processing historical deposit logs" currentEth1Block=0 currentLogCount=0 prefix=execution
+time="2024-07-09 21:22:51" level=info msg="3m56s until chain genesis" genesisStateRoot=7864fe41d01d6bc9b0677d08f2a4bf84c82b0f9126f743d6c717aa0e146ac318 genesisTime="2024-07-09 21:26:48 +0100 BST" genesisValidators=2 prefix=slotutil
+time="2024-07-09 21:22:51" level=info msg="Connected peers" inboundTCP=0 outboundTCP=0 prefix=p2p total=0
+time="2024-07-09 21:22:51" level=debug msg="Processing historical deposit logs" currentEth1Block=0 currentLogCount=0 prefix=execution
+time="2024-07-09 21:23:06" level=debug msg="Processing historical deposit logs" currentEth1Block=0 currentLogCount=0 prefix=execution
+time="2024-07-09 21:23:21" level=debug msg="Processing historical deposit logs" currentEth1Block=0 currentLogCount=0 prefix=execution
+time="2024-07-09 21:23:36" level=debug msg="Processing historical deposit logs" currentEth1Block=0 currentLogCount=0 prefix=execution
+time="2024-07-09 21:23:51" level=info msg="2m56s until chain genesis" genesisStateRoot=7864fe41d01d6bc9b0677d08f2a4bf84c82b0f9126f743d6c717aa0e146ac318 genesisTime="2024-07-09 21:26:48 +0100 BST" genesisValidators=2 prefix=slotutil
+time="2024-07-09 21:23:51" level=info msg="Connected peers" inboundTCP=0 outboundTCP=0 prefix=p2p total=0
+time="2024-07-09 21:23:51" level=debug msg="Processing historical deposit logs" currentEth1Block=0 currentLogCount=0 prefix=execution
+time="2024-07-09 21:24:06" level=error msg="Unable to retrieve proof-of-stake genesis block data" error="HeaderByHash, hash=0x6003cc1232af19058dfaed4c2caf11f0c7296e20c5bc70a9b851c49fe5a72ef4: not found" prefix=execution
+time="2024-07-09 21:24:06" level=debug msg="Processing historical deposit logs" currentEth1Block=0 currentLogCount=0 prefix=execution
+time="2024-07-09 21:24:21" level=debug msg="Processing historical deposit logs" currentEth1Block=0 currentLogCount=0 prefix=execution
+time="2024-07-09 21:24:36" level=debug msg="Processing historical deposit logs" currentEth1Block=0 currentLogCount=0 prefix=execution
+time="2024-07-09 21:24:51" level=info msg="1m56s until chain genesis" genesisStateRoot=7864fe41d01d6bc9b0677d08f2a4bf84c82b0f9126f743d6c717aa0e146ac318 genesisTime="2024-07-09 21:26:48 +0100 BST" genesisValidators=2 prefix=slotutil
+time="2024-07-09 21:24:51" level=info msg="Connected peers" inboundTCP=0 outboundTCP=0 prefix=p2p total=0
+time="2024-07-09 21:24:51" level=debug msg="Processing historical deposit logs" currentEth1Block=0 currentLogCount=0 prefix=execution
+time="2024-07-09 21:24:52" level=info msg="1m55s until chain genesis" genesisStateRoot=7864fe41d01d6bc9b0677d08f2a4bf84c82b0f9126f743d6c717aa0e146ac318 genesisTime="2024-07-09 21:26:48 +0100 BST" genesisValidators=2 prefix=slotutil
+time="2024-07-09 21:24:53" level=info msg="1m54s until chain genesis" genesisStateRoot=7864fe41d01d6bc9b0677d08f2a4bf84c82b0f9126f743d6c717aa0e146ac318 genesisTime="2024-07-09 21:26:48 +0100 BST" genesisValidators=2 prefix=slotutil
+time="2024-07-09 21:24:54" level=info msg="1m53s until chain genesis" genesisStateRoot=7864fe41d01d6bc9b0677d08f2a4bf84c82b0f9126f743d6c717aa0e146ac318 genesisTime="2024-07-09 21:26:48 +0100 BST" genesisValidators=2 prefix=slotutil
+time="2024-07-09 21:24:55" level=info msg="1m52s until chain genesis" genesisStateRoot=7864fe41d01d6bc9b0677d08f2a4bf84c82b0f9126f743d6c717aa0e146ac318 genesisTime="2024-07-09 21:26:48 +0100 BST" genesisValidators=2 prefix=slotutil
+time="2024-07-09 21:24:56" level=info msg="1m51s until chain genesis" genesisStateRoot=7864fe41d01d6bc9b0677d08f2a4bf84c82b0f9126f743d6c717aa0e146ac318 genesisTime="2024-07-09 21:26:48 +0100 BST" genesisValidators=2 prefix=slotutil
+time="2024-07-09 21:24:57" level=info msg="1m50s until chain genesis" genesisStateRoot=7864fe41d01d6bc9b0677d08f2a4bf84c82b0f9126f743d6c717aa0e146ac318 genesisTime="2024-07-09 21:26:48 +0100 BST" genesisValidators=2 prefix=slotutil
+time="2024-07-09 21:24:58" level=info msg="1m49s until chain genesis" genesisStateRoot=7864fe41d01d6bc9b0677d08f2a4bf84c82b0f9126f743d6c717aa0e146ac318 genesisTime="2024-07-09 21:26:48 +0100 BST" genesisValidators=2 prefix=slotutil
+time="2024-07-09 21:24:59" level=info msg="1m48s until chain genesis" genesisStateRoot=7864fe41d01d6bc9b0677d08f2a4bf84c82b0f9126f743d6c717aa0e146ac318 genesisTime="2024-07-09 21:26:48 +0100 BST" genesisValidators=2 prefix=slotutil
+time="2024-07-09 21:25:00" level=info msg="1m47s until chain genesis" genesisStateRoot=7864fe41d01d6bc9b0677d08f2a4bf84c82b0f9126f743d6c717aa0e146ac318 genesisTime="2024-07-09 21:26:48 +0100 BST" genesisValidators=2 prefix=slotutil
+time="2024-07-09 21:25:01" level=info msg="1m46s until chain genesis" genesisStateRoot=7864fe41d01d6bc9b0677d08f2a4bf84c82b0f9126f743d6c717aa0e146ac318 genesisTime="2024-07-09 21:26:48 +0100 BST" genesisValidators=2 prefix=slotutil
+time="2024-07-09 21:25:02" level=info msg="1m45s until chain genesis" genesisStateRoot=7864fe41d01d6bc9b0677d08f2a4bf84c82b0f9126f743d6c717aa0e146ac318 genesisTime="2024-07-09 21:26:48 +0100 BST" genesisValidators=2 prefix=slotutil
+time="2024-07-09 21:25:03" level=info msg="1m44s until chain genesis" genesisStateRoot=7864fe41d01d6bc9b0677d08f2a4bf84c82b0f9126f743d6c717aa0e146ac318 genesisTime="2024-07-09 21:26:48 +0100 BST" genesisValidators=2 prefix=slotutil
+time="2024-07-09 21:25:04" level=info msg="1m43s until chain genesis" genesisStateRoot=7864fe41d01d6bc9b0677d08f2a4bf84c82b0f9126f743d6c717aa0e146ac318 genesisTime="2024-07-09 21:26:48 +0100 BST" genesisValidators=2 prefix=slotutil
+time="2024-07-09 21:25:05" level=info msg="1m42s until chain genesis" genesisStateRoot=7864fe41d01d6bc9b0677d08f2a4bf84c82b0f9126f743d6c717aa0e146ac318 genesisTime="2024-07-09 21:26:48 +0100 BST" genesisValidators=2 prefix=slotutil
+time="2024-07-09 21:25:06" level=info msg="1m41s until chain genesis" genesisStateRoot=7864fe41d01d6bc9b0677d08f2a4bf84c82b0f9126f743d6c717aa0e146ac318 genesisTime="2024-07-09 21:26:48 +0100 BST" genesisValidators=2 prefix=slotutil
+time="2024-07-09 21:25:06" level=debug msg="Processing historical deposit logs" currentEth1Block=0 currentLogCount=0 prefix=execution
+time="2024-07-09 21:25:07" level=info msg="1m40s until chain genesis" genesisStateRoot=7864fe41d01d6bc9b0677d08f2a4bf84c82b0f9126f743d6c717aa0e146ac318 genesisTime="2024-07-09 21:26:48 +0100 BST" genesisValidators=2 prefix=slotutil
+time="2024-07-09 21:25:08" level=info msg="1m39s until chain genesis" genesisStateRoot=7864fe41d01d6bc9b0677d08f2a4bf84c82b0f9126f743d6c717aa0e146ac318 genesisTime="2024-07-09 21:26:48 +0100 BST" genesisValidators=2 prefix=slotutil
+time="2024-07-09 21:25:09" level=info msg="1m38s until chain genesis" genesisStateRoot=7864fe41d01d6bc9b0677d08f2a4bf84c82b0f9126f743d6c717aa0e146ac318 genesisTime="2024-07-09 21:26:48 +0100 BST" genesisValidators=2 prefix=slotutil
+time="2024-07-09 21:25:10" level=info msg="1m37s until chain genesis" genesisStateRoot=7864fe41d01d6bc9b0677d08f2a4bf84c82b0f9126f743d6c717aa0e146ac318 genesisTime="2024-07-09 21:26:48 +0100 BST" genesisValidators=2 prefix=slotutil
+time="2024-07-09 21:25:11" level=info msg="1m36s until chain genesis" genesisStateRoot=7864fe41d01d6bc9b0677d08f2a4bf84c82b0f9126f743d6c717aa0e146ac318 genesisTime="2024-07-09 21:26:48 +0100 BST" genesisValidators=2 prefix=slotutil
+time="2024-07-09 21:25:12" level=info msg="1m35s until chain genesis" genesisStateRoot=7864fe41d01d6bc9b0677d08f2a4bf84c82b0f9126f743d6c717aa0e146ac318 genesisTime="2024-07-09 21:26:48 +0100 BST" genesisValidators=2 prefix=slotutil
+time="2024-07-09 21:25:13" level=info msg="1m34s until chain genesis" genesisStateRoot=7864fe41d01d6bc9b0677d08f2a4bf84c82b0f9126f743d6c717aa0e146ac318 genesisTime="2024-07-09 21:26:48 +0100 BST" genesisValidators=2 prefix=slotutil
+time="2024-07-09 21:25:14" level=info msg="1m33s until chain genesis" genesisStateRoot=7864fe41d01d6bc9b0677d08f2a4bf84c82b0f9126f743d6c717aa0e146ac318 genesisTime="2024-07-09 21:26:48 +0100 BST" genesisValidators=2 prefix=slotutil
+time="2024-07-09 21:25:15" level=info msg="1m32s until chain genesis" genesisStateRoot=7864fe41d01d6bc9b0677d08f2a4bf84c82b0f9126f743d6c717aa0e146ac318 genesisTime="2024-07-09 21:26:48 +0100 BST" genesisValidators=2 prefix=slotutil
+time="2024-07-09 21:25:16" level=info msg="1m31s until chain genesis" genesisStateRoot=7864fe41d01d6bc9b0677d08f2a4bf84c82b0f9126f743d6c717aa0e146ac318 genesisTime="2024-07-09 21:26:48 +0100 BST" genesisValidators=2 prefix=slotutil
+time="2024-07-09 21:25:17" level=info msg="1m30s until chain genesis" genesisStateRoot=7864fe41d01d6bc9b0677d08f2a4bf84c82b0f9126f743d6c717aa0e146ac318 genesisTime="2024-07-09 21:26:48 +0100 BST" genesisValidators=2 prefix=slotutil
+time="2024-07-09 21:25:18" level=info msg="1m29s until chain genesis" genesisStateRoot=7864fe41d01d6bc9b0677d08f2a4bf84c82b0f9126f743d6c717aa0e146ac318 genesisTime="2024-07-09 21:26:48 +0100 BST" genesisValidators=2 prefix=slotutil
+time="2024-07-09 21:25:19" level=info msg="1m28s until chain genesis" genesisStateRoot=7864fe41d01d6bc9b0677d08f2a4bf84c82b0f9126f743d6c717aa0e146ac318 genesisTime="2024-07-09 21:26:48 +0100 BST" genesisValidators=2 prefix=slotutil
+time="2024-07-09 21:25:20" level=info msg="1m27s until chain genesis" genesisStateRoot=7864fe41d01d6bc9b0677d08f2a4bf84c82b0f9126f743d6c717aa0e146ac318 genesisTime="2024-07-09 21:26:48 +0100 BST" genesisValidators=2 prefix=slotutil
+time="2024-07-09 21:25:21" level=info msg="1m26s until chain genesis" genesisStateRoot=7864fe41d01d6bc9b0677d08f2a4bf84c82b0f9126f743d6c717aa0e146ac318 genesisTime="2024-07-09 21:26:48 +0100 BST" genesisValidators=2 prefix=slotutil
+time="2024-07-09 21:25:21" level=debug msg="Processing historical deposit logs" currentEth1Block=0 currentLogCount=0 prefix=execution
+time="2024-07-09 21:25:22" level=info msg="1m25s until chain genesis" genesisStateRoot=7864fe41d01d6bc9b0677d08f2a4bf84c82b0f9126f743d6c717aa0e146ac318 genesisTime="2024-07-09 21:26:48 +0100 BST" genesisValidators=2 prefix=slotutil
+time="2024-07-09 21:25:23" level=info msg="1m24s until chain genesis" genesisStateRoot=7864fe41d01d6bc9b0677d08f2a4bf84c82b0f9126f743d6c717aa0e146ac318 genesisTime="2024-07-09 21:26:48 +0100 BST" genesisValidators=2 prefix=slotutil
+time="2024-07-09 21:25:24" level=info msg="1m23s until chain genesis" genesisStateRoot=7864fe41d01d6bc9b0677d08f2a4bf84c82b0f9126f743d6c717aa0e146ac318 genesisTime="2024-07-09 21:26:48 +0100 BST" genesisValidators=2 prefix=slotutil
+time="2024-07-09 21:25:25" level=info msg="1m22s until chain genesis" genesisStateRoot=7864fe41d01d6bc9b0677d08f2a4bf84c82b0f9126f743d6c717aa0e146ac318 genesisTime="2024-07-09 21:26:48 +0100 BST" genesisValidators=2 prefix=slotutil
+time="2024-07-09 21:25:26" level=info msg="1m21s until chain genesis" genesisStateRoot=7864fe41d01d6bc9b0677d08f2a4bf84c82b0f9126f743d6c717aa0e146ac318 genesisTime="2024-07-09 21:26:48 +0100 BST" genesisValidators=2 prefix=slotutil
+time="2024-07-09 21:25:27" level=info msg="1m20s until chain genesis" genesisStateRoot=7864fe41d01d6bc9b0677d08f2a4bf84c82b0f9126f743d6c717aa0e146ac318 genesisTime="2024-07-09 21:26:48 +0100 BST" genesisValidators=2 prefix=slotutil
+time="2024-07-09 21:25:28" level=info msg="1m19s until chain genesis" genesisStateRoot=7864fe41d01d6bc9b0677d08f2a4bf84c82b0f9126f743d6c717aa0e146ac318 genesisTime="2024-07-09 21:26:48 +0100 BST" genesisValidators=2 prefix=slotutil
+time="2024-07-09 21:25:29" level=info msg="1m18s until chain genesis" genesisStateRoot=7864fe41d01d6bc9b0677d08f2a4bf84c82b0f9126f743d6c717aa0e146ac318 genesisTime="2024-07-09 21:26:48 +0100 BST" genesisValidators=2 prefix=slotutil
+time="2024-07-09 21:25:30" level=info msg="1m17s until chain genesis" genesisStateRoot=7864fe41d01d6bc9b0677d08f2a4bf84c82b0f9126f743d6c717aa0e146ac318 genesisTime="2024-07-09 21:26:48 +0100 BST" genesisValidators=2 prefix=slotutil
+time="2024-07-09 21:25:31" level=info msg="1m16s until chain genesis" genesisStateRoot=7864fe41d01d6bc9b0677d08f2a4bf84c82b0f9126f743d6c717aa0e146ac318 genesisTime="2024-07-09 21:26:48 +0100 BST" genesisValidators=2 prefix=slotutil
+time="2024-07-09 21:25:32" level=info msg="1m15s until chain genesis" genesisStateRoot=7864fe41d01d6bc9b0677d08f2a4bf84c82b0f9126f743d6c717aa0e146ac318 genesisTime="2024-07-09 21:26:48 +0100 BST" genesisValidators=2 prefix=slotutil
+time="2024-07-09 21:25:33" level=info msg="1m14s until chain genesis" genesisStateRoot=7864fe41d01d6bc9b0677d08f2a4bf84c82b0f9126f743d6c717aa0e146ac318 genesisTime="2024-07-09 21:26:48 +0100 BST" genesisValidators=2 prefix=slotutil
+time="2024-07-09 21:25:34" level=info msg="1m13s until chain genesis" genesisStateRoot=7864fe41d01d6bc9b0677d08f2a4bf84c82b0f9126f743d6c717aa0e146ac318 genesisTime="2024-07-09 21:26:48 +0100 BST" genesisValidators=2 prefix=slotutil
+time="2024-07-09 21:25:35" level=info msg="1m12s until chain genesis" genesisStateRoot=7864fe41d01d6bc9b0677d08f2a4bf84c82b0f9126f743d6c717aa0e146ac318 genesisTime="2024-07-09 21:26:48 +0100 BST" genesisValidators=2 prefix=slotutil
+time="2024-07-09 21:25:36" level=info msg="1m11s until chain genesis" genesisStateRoot=7864fe41d01d6bc9b0677d08f2a4bf84c82b0f9126f743d6c717aa0e146ac318 genesisTime="2024-07-09 21:26:48 +0100 BST" genesisValidators=2 prefix=slotutil
+time="2024-07-09 21:25:36" level=debug msg="Processing historical deposit logs" currentEth1Block=0 currentLogCount=0 prefix=execution
+time="2024-07-09 21:25:37" level=info msg="1m10s until chain genesis" genesisStateRoot=7864fe41d01d6bc9b0677d08f2a4bf84c82b0f9126f743d6c717aa0e146ac318 genesisTime="2024-07-09 21:26:48 +0100 BST" genesisValidators=2 prefix=slotutil
+time="2024-07-09 21:25:38" level=info msg="1m9s until chain genesis" genesisStateRoot=7864fe41d01d6bc9b0677d08f2a4bf84c82b0f9126f743d6c717aa0e146ac318 genesisTime="2024-07-09 21:26:48 +0100 BST" genesisValidators=2 prefix=slotutil
+time="2024-07-09 21:25:39" level=info msg="1m8s until chain genesis" genesisStateRoot=7864fe41d01d6bc9b0677d08f2a4bf84c82b0f9126f743d6c717aa0e146ac318 genesisTime="2024-07-09 21:26:48 +0100 BST" genesisValidators=2 prefix=slotutil
+time="2024-07-09 21:25:40" level=info msg="1m7s until chain genesis" genesisStateRoot=7864fe41d01d6bc9b0677d08f2a4bf84c82b0f9126f743d6c717aa0e146ac318 genesisTime="2024-07-09 21:26:48 +0100 BST" genesisValidators=2 prefix=slotutil
+time="2024-07-09 21:25:41" level=info msg="1m6s until chain genesis" genesisStateRoot=7864fe41d01d6bc9b0677d08f2a4bf84c82b0f9126f743d6c717aa0e146ac318 genesisTime="2024-07-09 21:26:48 +0100 BST" genesisValidators=2 prefix=slotutil
+time="2024-07-09 21:25:42" level=info msg="1m5s until chain genesis" genesisStateRoot=7864fe41d01d6bc9b0677d08f2a4bf84c82b0f9126f743d6c717aa0e146ac318 genesisTime="2024-07-09 21:26:48 +0100 BST" genesisValidators=2 prefix=slotutil
+time="2024-07-09 21:25:43" level=info msg="1m4s until chain genesis" genesisStateRoot=7864fe41d01d6bc9b0677d08f2a4bf84c82b0f9126f743d6c717aa0e146ac318 genesisTime="2024-07-09 21:26:48 +0100 BST" genesisValidators=2 prefix=slotutil
+time="2024-07-09 21:25:44" level=info msg="1m3s until chain genesis" genesisStateRoot=7864fe41d01d6bc9b0677d08f2a4bf84c82b0f9126f743d6c717aa0e146ac318 genesisTime="2024-07-09 21:26:48 +0100 BST" genesisValidators=2 prefix=slotutil
+time="2024-07-09 21:25:45" level=info msg="1m2s until chain genesis" genesisStateRoot=7864fe41d01d6bc9b0677d08f2a4bf84c82b0f9126f743d6c717aa0e146ac318 genesisTime="2024-07-09 21:26:48 +0100 BST" genesisValidators=2 prefix=slotutil
+time="2024-07-09 21:25:46" level=info msg="1m1s until chain genesis" genesisStateRoot=7864fe41d01d6bc9b0677d08f2a4bf84c82b0f9126f743d6c717aa0e146ac318 genesisTime="2024-07-09 21:26:48 +0100 BST" genesisValidators=2 prefix=slotutil
+time="2024-07-09 21:25:47" level=info msg="1m0s until chain genesis" genesisStateRoot=7864fe41d01d6bc9b0677d08f2a4bf84c82b0f9126f743d6c717aa0e146ac318 genesisTime="2024-07-09 21:26:48 +0100 BST" genesisValidators=2 prefix=slotutil
+time="2024-07-09 21:25:48" level=info msg="59s until chain genesis" genesisStateRoot=7864fe41d01d6bc9b0677d08f2a4bf84c82b0f9126f743d6c717aa0e146ac318 genesisTime="2024-07-09 21:26:48 +0100 BST" genesisValidators=2 prefix=slotutil
+time="2024-07-09 21:25:49" level=info msg="58s until chain genesis" genesisStateRoot=7864fe41d01d6bc9b0677d08f2a4bf84c82b0f9126f743d6c717aa0e146ac318 genesisTime="2024-07-09 21:26:48 +0100 BST" genesisValidators=2 prefix=slotutil
+time="2024-07-09 21:25:50" level=info msg="57s until chain genesis" genesisStateRoot=7864fe41d01d6bc9b0677d08f2a4bf84c82b0f9126f743d6c717aa0e146ac318 genesisTime="2024-07-09 21:26:48 +0100 BST" genesisValidators=2 prefix=slotutil
+time="2024-07-09 21:25:51" level=info msg="56s until chain genesis" genesisStateRoot=7864fe41d01d6bc9b0677d08f2a4bf84c82b0f9126f743d6c717aa0e146ac318 genesisTime="2024-07-09 21:26:48 +0100 BST" genesisValidators=2 prefix=slotutil
+time="2024-07-09 21:25:51" level=info msg="Connected peers" inboundTCP=0 outboundTCP=0 prefix=p2p total=0
+time="2024-07-09 21:25:51" level=debug msg="Processing historical deposit logs" currentEth1Block=0 currentLogCount=0 prefix=execution
+time="2024-07-09 21:25:52" level=info msg="55s until chain genesis" genesisStateRoot=7864fe41d01d6bc9b0677d08f2a4bf84c82b0f9126f743d6c717aa0e146ac318 genesisTime="2024-07-09 21:26:48 +0100 BST" genesisValidators=2 prefix=slotutil
+time="2024-07-09 21:25:53" level=info msg="54s until chain genesis" genesisStateRoot=7864fe41d01d6bc9b0677d08f2a4bf84c82b0f9126f743d6c717aa0e146ac318 genesisTime="2024-07-09 21:26:48 +0100 BST" genesisValidators=2 prefix=slotutil
+time="2024-07-09 21:25:54" level=info msg="53s until chain genesis" genesisStateRoot=7864fe41d01d6bc9b0677d08f2a4bf84c82b0f9126f743d6c717aa0e146ac318 genesisTime="2024-07-09 21:26:48 +0100 BST" genesisValidators=2 prefix=slotutil
+time="2024-07-09 21:25:55" level=info msg="52s until chain genesis" genesisStateRoot=7864fe41d01d6bc9b0677d08f2a4bf84c82b0f9126f743d6c717aa0e146ac318 genesisTime="2024-07-09 21:26:48 +0100 BST" genesisValidators=2 prefix=slotutil
+time="2024-07-09 21:25:56" level=info msg="51s until chain genesis" genesisStateRoot=7864fe41d01d6bc9b0677d08f2a4bf84c82b0f9126f743d6c717aa0e146ac318 genesisTime="2024-07-09 21:26:48 +0100 BST" genesisValidators=2 prefix=slotutil
+time="2024-07-09 21:25:57" level=info msg="50s until chain genesis" genesisStateRoot=7864fe41d01d6bc9b0677d08f2a4bf84c82b0f9126f743d6c717aa0e146ac318 genesisTime="2024-07-09 21:26:48 +0100 BST" genesisValidators=2 prefix=slotutil
+time="2024-07-09 21:25:58" level=info msg="49s until chain genesis" genesisStateRoot=7864fe41d01d6bc9b0677d08f2a4bf84c82b0f9126f743d6c717aa0e146ac318 genesisTime="2024-07-09 21:26:48 +0100 BST" genesisValidators=2 prefix=slotutil
+time="2024-07-09 21:25:59" level=info msg="48s until chain genesis" genesisStateRoot=7864fe41d01d6bc9b0677d08f2a4bf84c82b0f9126f743d6c717aa0e146ac318 genesisTime="2024-07-09 21:26:48 +0100 BST" genesisValidators=2 prefix=slotutil
+time="2024-07-09 21:26:00" level=info msg="47s until chain genesis" genesisStateRoot=7864fe41d01d6bc9b0677d08f2a4bf84c82b0f9126f743d6c717aa0e146ac318 genesisTime="2024-07-09 21:26:48 +0100 BST" genesisValidators=2 prefix=slotutil
+time="2024-07-09 21:26:01" level=info msg="46s until chain genesis" genesisStateRoot=7864fe41d01d6bc9b0677d08f2a4bf84c82b0f9126f743d6c717aa0e146ac318 genesisTime="2024-07-09 21:26:48 +0100 BST" genesisValidators=2 prefix=slotutil
+time="2024-07-09 21:26:02" level=info msg="45s until chain genesis" genesisStateRoot=7864fe41d01d6bc9b0677d08f2a4bf84c82b0f9126f743d6c717aa0e146ac318 genesisTime="2024-07-09 21:26:48 +0100 BST" genesisValidators=2 prefix=slotutil
