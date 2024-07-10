@@ -1,4 +1,4 @@
-## Run a proof of stake network on Deneb fork
+## Run a proof of stake network on Deneb fork (Geth 1.14.6 and Prysm 5.0.4)
 
 1. Run this script`./run-network.sh`
 
