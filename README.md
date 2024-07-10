@@ -1,11 +1,11 @@
 ## Run a proof of stake network on Deneb fork
 
-2. Initialise geth and prysm using `./run-init.sh`
+1. Initialise geth and prysm using `./run-init.sh`
 2. Run the nodes `./run-nodes.sh`
 
 This uses two validators - you can edit that number in both scripts.
 
-## Notes:
+## Notes
 * The Prysm docs for running a [Proof of Stake Devnet](https://docs.prylabs.network/docs/advanced/proof-of-stake-devnet) are out of date.
     * You need to add `ELECTRA_FORK_VERSION: 0x20000094` to your `config.yml`
     * The `genesis.json` provided doesn't work with the deneb fork, so use the one given in this repo.
