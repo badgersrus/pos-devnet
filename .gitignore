@@ -1,0 +1,4 @@
+# GoLand files
+.idea/
+.vscode/
+go-obscuro.iml
