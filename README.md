@@ -1,7 +1,6 @@
 ## Run a proof of stake network on Deneb fork
 
-1. Initialise geth and prysm using `./run-init.sh`
-2. Run the nodes `./run-nodes.sh`
+1. Run this script`./run-network.sh`
 
 This uses two validators - you can edit that number in both scripts.
 
